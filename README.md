@@ -60,7 +60,7 @@ In a new Terminal tab, navigate back the the project directory.
 cd path/to/app
 ```
 
-Inspect out all the files Brunch created.
+Take a look at the `public` directory to see what Brunch created.
 
 ```shell
 la public
