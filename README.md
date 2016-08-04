@@ -50,6 +50,8 @@ la public
 
 To watch the project for changes and launch an HTTP server, start the build tool.
 
+**NOTE:** Press `Ctrl + C` to quit Brunch.
+
 ```shell
 npm start
 ```
