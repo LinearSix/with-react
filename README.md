@@ -4,27 +4,15 @@ Ryan Sobol's React skeleton for Brunch
 
 ## Dependencies
 
-Install [Node.js](http://nodejs.org) with Homebrew.
-
-```shell
-brew install node
-```
-
 Install the [Brunch](http://brunch.io) package globally with NPM.
 
 ```shell
 npm install -g brunch
 ```
 
-Install the application dependencies.
-
-```shell
-npm install
-```
-
 ## Usage
 
-Create a new application based on this Brunch skeleton.
+Create a new application based on this Brunch skeleton and install its dependencies.
 
 ```shell
 brunch new path/to/app -s ryansobol/with-react
