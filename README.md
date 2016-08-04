@@ -1,21 +1,80 @@
-# Brunch + React + Babel/ES6
+# with-react
 
-This is a modern JS skeleton with React for [Brunch](http://brunch.io).
+Ryan Sobol's React skeleton for Brunch
 
-## Installation
+## Dependencies
 
-Clone this repo manually or use `brunch new dir -s brunch/with-react`
+Install [Node.js](http://nodejs.org) with Homebrew.
 
-## Getting started
+```shell
+brew install node
+```
 
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * Brunch plugins and app dependencies: `npm install`
-* Run:
-    * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `brunch build --production` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+Install the [Brunch](http://brunch.io) package globally with NPM.
+
+```shell
+npm install -g brunch
+```
+
+Install the application dependencies.
+
+```shell
+npm install
+```
+
+## Usage
+
+Create a new application based on this Brunch skeleton.
+
+```shell
+brunch new path/to/app -s ryansobol/with-react
+```
+
+Build the client-side application every time a file is changed. This also launches an HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
+
+```shell
+npm start
+```
+
+Open the application in your default browser.
+
+```shell
+open http://localhost:8000
+```
+
+## Learn
+
+The application's code lives in the `app` directory.
+
+```shell
+ls app
+```
+
+Static files are placed in the `app/assets` directory and are copied to the `public` directory on build.
+
+```shell
+ls app/assets
+```
+
+React components are placed in the `app/components` directory and are combined into the `public/app.js` file on build.
+
+```shell
+ls app/components
+```
+
+CSS stylesheets are placed in the `app/styles` directory and are combined into the `public/app.css` file on build.
+
+```shell
+ls app/styles
+```
+
+On each build, the client-side application files are saved to the `public` directory and served by the HTTP server.
+
+```shell
+ls public
+```
+
+## Resources
+
+- [Brunch](http://brunch.io)
+- [Getting started guide](https://github.com/brunch/brunch-guide#readme)
