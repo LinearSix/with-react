@@ -1,16 +1,15 @@
 import React from 'react';
 
-export default class App extends React.Component {
+const App = React.createClass({
   render() {
-    return (
-      <div id="content">
-        <h1>&nbsp;</h1>
-        <h2>Welcome!</h2>
-        <ul>
-          <li><a href="http://brunch.io">Brunch homepage</a></li>
-          <li><a href="https://facebook.github.io/react/">React.js homepage</a></li>
-        </ul>
-      </div>
-    );
+    return <main>
+      <h2>Ryan Sobol's React skeleton for Brunch</h2>
+      <ul>
+        <li><a href="http://brunch.io">Brunch</a></li>
+        <li><a href="https://facebook.github.io/react/">React.js</a></li>
+      </ul>
+    </main>;
   }
-}
+});
+
+export default App;
