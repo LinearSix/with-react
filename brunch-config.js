@@ -18,5 +18,9 @@ module.exports = {
     babel: {
       presets: ['es2015', 'react']
     }
+  },
+
+  server: {
+    port: 8000,
   }
 };
