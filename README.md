@@ -32,6 +32,8 @@ la app/assets
 
 React components are placed in the `app/components` directory and are combined into the `public/app.js` file on build.
 
+**NOTE:** Each React component lives in a module so can be shared with other modules using [ES6 module](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/) syntax.
+
 ```shell
 la app/components
 ```
