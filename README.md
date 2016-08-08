@@ -50,9 +50,9 @@ On each build, the application's files are saved to the `public` directory and s
 la public
 ```
 
-To watch the project for changes and launch an HTTP server, start the build tool.
+Watch the project for changes and launch an HTTP server.
 
-**NOTE:** Press `Ctrl + C` to quit Brunch.
+**NOTE:** Press `Ctrl + C` to quit.
 
 ```shell
 npm start
