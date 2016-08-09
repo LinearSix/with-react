@@ -19,6 +19,10 @@ module.exports = {
   plugins: {
     babel: {
       presets: ['es2015', 'react']
+    },
+
+    postcss: {
+      processors: [require('postcss-import')({ path: 'app/styles' })]
     }
   },
 
