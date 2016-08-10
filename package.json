@@ -9,7 +9,7 @@
     "url": ""
   },
   "scripts": {
-    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public",
     "start": "brunch watch --server"
   },
   "dependencies": {
