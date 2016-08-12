@@ -79,4 +79,4 @@ open http://localhost:8000/
 ## Resources
 
 - [Brunch](http://brunch.io)
-- [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+- [React](https://facebook.github.io/react/)
