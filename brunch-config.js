@@ -23,6 +23,6 @@ module.exports = {
   },
 
   server: {
-    port: 8000
+    port: Number.parseInt(process.env.PORT) || 8000
   }
 };
