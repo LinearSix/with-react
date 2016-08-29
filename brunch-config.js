@@ -11,8 +11,15 @@ module.exports = {
 
     stylesheets: {
       joinTo: {
-        'app.css': /^app\//
+        'app.css': /^app\//,
+        'vendor.css': /^node_modules\//
       }
+    }
+  },
+
+  npm: {
+    styles: {
+      'normalize.css': ['normalize.css']
     }
   },
 
