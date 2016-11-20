@@ -1,6 +1,6 @@
 # with-react
 
-Ryan Sobol's React skeleton for Brunch
+Galvanize's React skeleton for Brunch
 
 ## Dependencies
 
@@ -15,7 +15,7 @@ npm install -g brunch
 Create a new React application based on this Brunch skeleton and install its dependencies.
 
 ```shell
-brunch new path/to/app --skeleton ryansobol/with-react
+brunch new path/to/app --skeleton gSchool/with-react
 ```
 
 The application's code lives in the `app` directory.
